@@ -1,0 +1,138 @@
+body
+{
+  background-color: #404040;
+font-family: 'Balsamiq Sans', cursive;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+color:white;
+margin-top: 20px;
+font-size: 36px;
+letter-spacing: 1px;
+font-weight: 600;
+}
+
+#menu
+{
+  background-color: #303030;
+  margin-top: 20px;
+  color: red;
+  padding 10px;
+}
+
+
+
+#topbar
+{
+
+  background-color: #ab84a8;
+  color:white;
+  padding: 10px;
+  margin-top 20px;
+  margin-bottom: 25px;
+  height: 170px;
+
+}
+
+#topbarL
+{
+  float:left;
+  padding: 20px;
+  width: 138px;
+  text-align: center;
+  border-right: 2px dotted #cccccc;
+}
+
+#topbarR
+{
+  float:left;
+  padding: 20px;
+  width: 760px;
+}
+
+#sidebar
+{
+  float: left;
+  width: 148px;
+  min-height: 620px;
+  padding: 20px;
+  background-color: darkgray;
+  text-align: center;
+  font-size: 18px;
+  border-right: 2px solid #777777;
+
+}
+
+#content
+{
+  float: left;
+  padding: 40px;
+  width: 730px;
+  background: #dedede;
+  min-height: 580px;
+  text-align: center;
+}
+
+#footer
+{
+  clear: both;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  font-size: 18px;
+
+}
+
+.option
+{
+  float: left;
+  min-width: 50px;
+  height: 25px;
+  font-size: 18px;
+  padding: 10px;
+  border-right: 2px solid black;
+  opacity: 0.8;
+}
+
+.option:hover
+{
+  background-color: black;
+  cursor: pointer;
+}
+
+.optionL
+{
+  font-size:18px;
+  height: 28px;
+  padding: 10px;
+  border-bottom: 2px solid #444444;
+
+}
+.optionL:hover
+{
+  background-color: lightgray;
+  color: white;
+  cursor: pointer;
+
+}
+
+.bigtitle
+{
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+a
+{
+  color: #495f82;
+}
